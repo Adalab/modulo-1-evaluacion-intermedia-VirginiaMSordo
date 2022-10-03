@@ -1,5 +1,7 @@
 @media all and (min-width: 768px) {
     .header {
+        flex-direction: row;  
+        /* de columna a línea como ya tiene display flex, le decimos dirección raw */
         justify-content: space-between;
         align-items: center;
         padding-left: 30px;
@@ -7,12 +9,13 @@
         
     }
     .img {
-        
+        padding-top: 20px;
         
     }
     .h {
         font-size: 40px;
         padding-top: 20px;
+        /* en rem sería 2.5rem */
     }
 
 

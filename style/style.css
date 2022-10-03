@@ -7,49 +7,56 @@
     --Texto-menu: #4a4a4a;
     --fondo: #3CDBC0;
     --texto: #FFFFFF;
-    --font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    /* al ser solo un font para toda la página no se pone como variable -- */
 }
 .header {
     background-color: #FFFFFF;
     width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    position: fixed;
+    /* no lleva punto desde donde empezar top:0; */
+    z-index: 100;
+    padding-bottom: 13px;
 }
-
-.img {
-    width: 155px;
-    padding-top: 10px;
-}
-.ul {
-    display: flex;
-    list-style: none; 
-}
-.item {
-    text-decoration: none;
-    color: var(--Texto-menu);
-    font-size: 16px;
-    font-family: var(--font-family);
-    padding: 10px 20px 7px 16px;
-        
-}
-.h {
+.main {
     background-color: var(--fondo);
-    color: var(--texto);
-    font-size: 30px;
-    width: 15ch;
-    opacity: 0.9;
-    font-family: var(--font-family);
-    white-space: pre-line;
-    padding-top: 50px;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.nav {
+   padding-top: 10px;
+}
+.img {
+    width: 155px;
+    
+}
+.ul {
+    display: flex;
+    list-style: none;
+}
+.item {
+    color: var(--Texto-menu);
+    font-size: 16px;
+    font-family: var(--font-family);
+    padding: 10px 20px 7px 16px;
+    text-decoration: none;
+}
+.h {
+    color: var(--texto);
+    font-size: 30px;
+    width: 15ch;
+    /* ch hace referencia al número de caracteres. podríamos hacer word-spacing:100vw */
+    opacity: 0.9;
+    white-space: pre-line;
+    padding-top: 50px;
+    text-transform: capitalize;
+    /* para poner las letras en mayúscula capitalizamos */
+    text-align: center;
 }
 
