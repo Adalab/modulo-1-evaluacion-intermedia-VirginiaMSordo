@@ -45,6 +45,7 @@
     opacity: 0.9;
     font-family: var(--font-family);
     white-space: pre-line;
+    padding-top: 50px;
     width: 100vw;
     height: 100vh;
     display: flex;
