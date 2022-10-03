@@ -10,22 +10,39 @@
     --font-family: 'Rubik', sans-serif;
 }
 .header {
-    background-color: red;
+    background-color: #FFFFFF;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .img {
-    background-color: blue;
+    width: 155px;
 }
-
 .ul {
-    background-color: pink;
-
+    
+}
+.item {
+    color: var(--Texto-menu);
+    font-size: 16px;
+    font-family: var(--font-family);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px 7px 16px;
+        
 }
 .h {
     background-color: var(--fondo);
     color: var(--texto);
     font-size: 30px;
     width: 15ch;
+    opacity: 0.9;
+    font-family: var(--font-family);
     white-space: pre-line;
     width: 100vw;
     height: 100vh;
