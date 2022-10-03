@@ -23,12 +23,11 @@
 
 .img {
     width: 155px;
-    position: relative;
     padding-top: 10px;
 }
 .ul {
     display: flex;
-    list-style: none;
+    list-style: none; 
 }
 .item {
     text-decoration: none;
