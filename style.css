@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --Texto-menu: #4a4a4a;
+    --fondo: #3CDBC0;
+    --texto: #FFFFFF;
+    --font-family: 'Rubik', sans-serif;
+}
+.header {
+    background-color: red;
+}
+
+.img {
+    background-color: blue;
+}
+
+.ul {
+    background-color: pink;
+
+}
+.h {
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-size: 30px;
+    width: 15ch;
+    white-space: pre-line;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
