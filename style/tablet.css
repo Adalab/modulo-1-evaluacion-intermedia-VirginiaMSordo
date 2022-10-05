@@ -3,7 +3,6 @@
         flex-direction: row;  
         /* de columna a línea como ya tiene display flex, le decimos dirección raw */
         justify-content: space-between;
-        align-items: center;
         padding-left: 30px;
         padding-right: 30px;
         
